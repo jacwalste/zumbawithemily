@@ -37,8 +37,9 @@ body {
   line-height: 1.6;
   color: var(--purple-ink);
   background-color: var(--cream);
-  /* subtle paper grain */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.35 0 0 0 0 0.25 0 0 0 0 0.45 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+  /* paper grain pre-baked to a static tile: a live feTurbulence SVG here
+     makes scroll rasterization visibly janky on tall pages */
+  background-image: url("assets/grain-cream.png");
   overflow-x: hidden;
 }
 
@@ -453,7 +454,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .signup {
   background: var(--purple-deep);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.8 0 0 0 0 0.9 0 0 0 0 0.3 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-image: url("assets/grain-purple.png");
   border-top: 3px solid var(--purple-ink);
   border-bottom: 3px solid var(--purple-ink);
   color: var(--white);
