@@ -63,7 +63,10 @@ img { max-width: 100%; height: auto; display: block; }
 .link--light:hover { color: var(--white); text-decoration-color: var(--white); }
 
 .btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
   font-family: var(--font-condensed);
   font-size: 1.05rem;
   letter-spacing: 0.06em;
