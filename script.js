@@ -9,7 +9,7 @@
    VENMO_URL / FACEBOOK_URL: leave "" to hide those links.     */
 const CONFIG = {
   WEB3FORMS_KEY: "",
-  VENMO_URL: "",     // e.g. "https://venmo.com/u/emily-handle"
+  VENMO_URL: "https://venmo.com/u/emilystepanek",
   FACEBOOK_URL: "",  // e.g. "https://www.facebook.com/..."
 };
 
