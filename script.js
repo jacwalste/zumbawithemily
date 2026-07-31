@@ -10,7 +10,7 @@
 const CONFIG = {
   WEB3FORMS_KEY: "",
   VENMO_URL: "https://venmo.com/u/emilystepanek",
-  FACEBOOK_URL: "",  // e.g. "https://www.facebook.com/..."
+  FACEBOOK_URL: "https://www.facebook.com/emily.e.stepanek",
 };
 
 const FALLBACK_MSG =
