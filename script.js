@@ -127,13 +127,13 @@ document.addEventListener("DOMContentLoaded", () => {
     "rsvp-form",
     "rsvp-status",
     (fd) => ({
-      subject: `Zumba RSVP — ${fd.get("name")} for ${fd.get("class_date")}`,
+      subject: `Zumba RSVP: ${fd.get("name")} for ${fd.get("class_date")}`,
       from_name: "zumbawithemily.com",
       "Class date": fd.get("class_date"),
       "Name": fd.get("name"),
       "Phone or email": fd.get("contact"),
       "Party size": fd.get("party_size"),
-      "Note": fd.get("note") || "—",
+      "Note": fd.get("note") || "(none)",
     }),
     "You're in! Emily just got your RSVP. See you Saturday! 💃"
   );
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "contact-form",
     "contact-status",
     (fd) => ({
-      subject: `Zumba site question — ${fd.get("name")}`,
+      subject: `Zumba site question: ${fd.get("name")}`,
       from_name: "zumbawithemily.com",
       "Name": fd.get("name"),
       "Phone or email": fd.get("contact"),
