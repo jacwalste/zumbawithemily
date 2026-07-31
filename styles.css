@@ -141,7 +141,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .hero {
   position: relative;
-  padding: clamp(1.5rem, 5vw, 4rem) clamp(1rem, 4vw, 3rem) clamp(2.5rem, 6vw, 5rem);
+  padding: clamp(0.75rem, 2vw, 1.5rem) clamp(1rem, 4vw, 3rem) clamp(2.5rem, 6vw, 5rem);
 }
 
 .hero__inner {
@@ -230,7 +230,12 @@ img { max-width: 100%; height: auto; display: block; }
   background: var(--white);
   padding: 10px 10px 14px;
 }
-.hero__photo img { border: 1px solid var(--cream-deep); }
+.hero__photo img {
+  border: 1px solid var(--cream-deep);
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 12%;
+}
 
 .sticker {
   position: absolute;
