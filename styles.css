@@ -232,9 +232,9 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .hero__photo img {
   border: 1px solid var(--cream-deep);
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
-  object-position: 50% 12%;
+  object-position: 50% 18%;
 }
 
 .sticker {
