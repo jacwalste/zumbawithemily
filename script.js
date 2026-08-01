@@ -8,7 +8,7 @@
      land in her inbox; no server needed.
    VENMO_URL / FACEBOOK_URL: leave "" to hide those links.     */
 const CONFIG = {
-  WEB3FORMS_KEY: "",
+  WEB3FORMS_KEY: "b0d80a8a-9ada-4abf-a6ba-e5db20f7b6fa",
   VENMO_URL: "https://venmo.com/u/emilystepanek",
   FACEBOOK_URL: "https://www.facebook.com/emily.e.stepanek",
 };
